@@ -7,9 +7,10 @@ Clone the repository to your project's workspace directory (e.g. ```SDK_ROOT\exa
 ```
 git clone https://github.com/yannidd/.vscode-nrf5-sdk
 ```
-Rename the ```.vscode-nrf5-sdk``` directory to ```.vscode```:
+Rename the ```.vscode-nrf5-sdk``` directory to ```.vscode``` and remove the ```.git``` folder:
 ```
 ren .\.vscode-nrf5-sdk\ .vscode
+rm .\.vscode\.git\ -recurse -force
 ```
 Open ```generate_properties.py``` and change ```proj_dir``` to match the directory that contains the ```armgcc``` and ```config``` folders (e.g. ```'pca10040/s132'```).
 
