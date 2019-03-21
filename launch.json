@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "jlink",
+      "cwd": "${workspaceRoot}",
+      "executable": "./pca10040/s132/armgcc/_build/nrf52832_xxaa.out",
+      "name": "Debug (J-Link)",
+      "device": "nRF52832_xxAA",
+      "interface": "swd",
+      "ipAddress": null,
+      "serialNumber": null,
+      "preLaunchTask": "make_flash_softdevice"
+    }
+  ]
+}

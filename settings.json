@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "sdk_common.h": "c",
+        "ble_srv_common.h": "c",
+        "ble_bas.h": "c",
+        "ble.h": "c",
+        "string.h": "c",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "limits": "cpp",
+        "*.tcc": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp"
+    }
+}
