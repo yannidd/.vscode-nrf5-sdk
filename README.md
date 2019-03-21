@@ -1,0 +1,1 @@
+# .vscode-nrf5-sdk
