@@ -1,6 +1,6 @@
 # Automatically configure the .vscode ```.json``` files for the nRF5 SDK
 
-This repository has the necessary ```.json``` files to edit, build and debug nRF5 SDK projects in Visual Studio Code. It has a python script, which reades all ```include directories``` and ```defines``` from the project's makefile and automatically updates the ```.json``` files so that ```IntelliSense``` works.
+This repository has the necessary ```.json``` files to edit, build and debug nRF5 SDK projects in Visual Studio Code. It has a python script, which reads all ```include directories``` and ```defines``` from the project's makefile and automatically updates the ```.json``` files so that ```IntelliSense``` works.
 
 ## Usage
 Clone the repository to your project's workspace directory (e.g. ```SDK_ROOT\examples\peripheral\blinky```):
