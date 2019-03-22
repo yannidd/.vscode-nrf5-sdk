@@ -14,7 +14,7 @@ rm .\.vscode\.git\ -recurse -force
 ```
 Open ```generate_properties.py``` and change ```proj_dir``` to match the directory that contains the ```armgcc``` and ```config``` folders (e.g. ```'pca10040/s132'```).
 
-Now run the ```generate_properties.py``` script:
+Now run the ```generate_properties.py``` (or ```generate_properties_ses.py``` if you are using Segger Embedded Studio) script:
 ```
 py .\.vscode\generate_properties.py
 ```
